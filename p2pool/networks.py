@@ -97,7 +97,7 @@ nets = dict(
         MAX_TARGET=2**256//2**20 - 1,
         PERSIST=True,
         WORKER_PORT=65050,
-        BOOTSTRAP_ADDRS=''.split(' '),
+        BOOTSTRAP_ADDRS='162.248.163.195 162.219.3.121'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-flappy',
         VERSION_CHECK=lambda v: True,
     ),
